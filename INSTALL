@@ -1,0 +1,9 @@
+Building Technocoin
+
+See doc/readme-qt.rst for instructions on building Technocoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Technocoin.
+
+See doc/build-*.txt for instructions on building technocoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Technocoin.
