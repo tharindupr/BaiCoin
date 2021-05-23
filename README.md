@@ -1,34 +1,36 @@
-Technocoin Cryptocurrency
+BiCoin Cryptocurrency
 ================================
 
-http://www.technocoin.org
+![alt text](http://url/to/img.png)
+
 
 Copyright (c) 2009-2014 Bitcoin Developers<br>
 Copyright (c) 2011-2014 Bicoin Developers<br>
-Copyright (c) 2021 Technocoin Developers<br>
+Copyright (c) 2021 BiCoin LK Developers<br>
 
-What is Technocoin?
+What is BiCoin (බයි කාසි)?
 ----------------
 
-Technocoin is a derivative of Bicoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
+BiCoin is a derivative of Bicoin using scrypt as a proof-of-work algorithm. The sole purpose of this coin is to create a digital currency for Bi people in Sri Lanka to untilize in paying Chineese debts. 
+
+ - ~64 million total coins   (To devide 10 coins per each people in 69 Lakshe)
+ - 2 minute block targets
  - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+ 
 
 The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - 22 coins per block to symbolize 22nd deformation to the Sri Lankan consitution. 
+ - 2019 blocks to retarget difficulty to symbolize the appoinment of president loku sir.
 
-For more information, as well as an immediately useable, binary version of
-the Technocoin client sofware, see http://www.technocoin.org.
+The immediately useable, binary version of the BiCoin client sofware will be released soon. 
 
 License
 -------
 
-Technocoin is released under the terms of the MIT license. See `COPYING` for more
+BiCoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
-Development process
+<!-- Development process
 -------------------
 
 Developers work in their own trees, then submit pull requests when they think
@@ -70,5 +72,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./technocoin-qt_test
+    ./technocoin-qt_test -->
 
