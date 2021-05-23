@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>technocoin.icns</string>
+	<string>BiCoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Technocoin-Qt</string>
+	<string>BiCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.technocoin.Technocoin-Qt</string>
+	<string>org.BiCoin.BiCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.technocoin.TechnocoinPayment</string>
+            <string>org.BiCoin.BiCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>technocoin</string>
+              <string>BiCoin</string>
             </array>
           </dict>
         </array>

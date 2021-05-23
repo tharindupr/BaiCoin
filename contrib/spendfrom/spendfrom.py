@@ -204,7 +204,7 @@ def sanity_test_fee(bitcoind, txdata_hex, max_fee):
             raise FeeError("Rejecting transaction, unreasonable fee of "+str(total_in-total_out))
 
         tx_size = len(txdata_hex)/2
-        kb = tx_size/1000  # integer ditechnocoin rounds down
+        kb = tx_size/1000  # integer diBiCoin rounds down
         if kb > 1 and fee < BASE_FEE:
             raise FeeError("Rejecting no-fee transaction, larger than 1000 bytes")
         if total_in < 0.01 and fee < BASE_FEE:

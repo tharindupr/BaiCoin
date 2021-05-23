@@ -36,7 +36,7 @@ information or see http://opensource.org/licenses/MIT.
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Technocoin
+If it is a simple/trivial/non-controversial change, then one of the BiCoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -48,8 +48,8 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/technocoin-project/technocoin/tags) are created
-regularly to indicate new official, stable release versions of Technocoin.
+completely stable. [Tags](https://github.com/BiCoin-project/BiCoin/tags) are created
+regularly to indicate new official, stable release versions of BiCoin.
 
 Testing
 -------
@@ -72,5 +72,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./technocoin-qt_test -->
+    ./BiCoin-qt_test -->
 

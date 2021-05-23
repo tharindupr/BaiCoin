@@ -1,9 +1,9 @@
-Building Technocoin
+Building BiCoin
 
-See doc/readme-qt.rst for instructions on building Technocoin-Qt,
+See doc/readme-qt.rst for instructions on building BiCoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Technocoin.
+implementation of BiCoin.
 
-See doc/build-*.txt for instructions on building technocoind,
+See doc/build-*.txt for instructions on building BiCoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Technocoin.
+implementation of BiCoin.
