@@ -1,7 +1,7 @@
 BiCoin Cryptocurrency
 ================================
 
-![alt text](http://url/to/img.png)
+![alt text](https://raw.githubusercontent.com/tharindupr/BiCoin/main/bicoinlogo-1.webp)
 
 
 Copyright (c) 2009-2014 Bitcoin Developers<br>
