@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOINUNITS_H
-#define BITCOINUNITS_H
+#ifndef BAIYOOINUNITS_H
+#define BAIYOOINUNITS_H
 
 #include <QString>
 #include <QAbstractListModel>
@@ -70,4 +70,4 @@ private:
 };
 typedef BitcoinUnits::Unit BitcoinUnit;
 
-#endif // BITCOINUNITS_H
+#endif // BAIYOOINUNITS_H

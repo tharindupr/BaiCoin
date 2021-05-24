@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOINAMOUNTFIELD_H
-#define BITCOINAMOUNTFIELD_H
+#ifndef BAIYOOINAMOUNTFIELD_H
+#define BAIYOOINAMOUNTFIELD_H
 
 #include <QWidget>
 
@@ -62,4 +62,4 @@ private slots:
 
 };
 
-#endif // BITCOINAMOUNTFIELD_H
+#endif // BAIYOOINAMOUNTFIELD_H

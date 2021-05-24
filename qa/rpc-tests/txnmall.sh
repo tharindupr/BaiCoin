@@ -8,7 +8,7 @@ if [ $# -lt 1 ]; then
         exit 1
 fi
 
-BITCOIND=${1}/bitcoind
+BAIYOOIND=${1}/bitcoind
 CLI=${1}/bitcoin-cli
 
 DIR="${BASH_SOURCE%/*}"
@@ -24,13 +24,13 @@ D=$(mktemp -d test.XXXXX)
 D1=${D}/node1
 CreateDataDir $D1 port=11000 rpcport=11001
 B1ARGS="-datadir=$D1 -debug"
-$BITCOIND $B1ARGS &
+$BAIYOOIND $B1ARGS &
 B1PID=$!
 
 D2=${D}/node2
 CreateDataDir $D2 port=11010 rpcport=11011
 B2ARGS="-datadir=$D2 -debug"
-$BITCOIND $B2ARGS &
+$BAIYOOIND $B2ARGS &
 B2PID=$!
 
 trap "kill -9 $B1PID $B2PID; rm -rf $D" EXIT
@@ -80,7 +80,7 @@ CheckBalance $B2ARGS 0
 # restart B2 with no connection
 $CLI $B2ARGS stop > /dev/null 2>&1
 wait $B2PID
-$BITCOIND $B2ARGS &
+$BAIYOOIND $B2ARGS &
 B2PID=$!
 
 B2ADDRESS=$( $CLI $B2ARGS getnewaddress )

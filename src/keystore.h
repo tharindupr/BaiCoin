@@ -2,8 +2,8 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BITCOIN_KEYSTORE_H
-#define BITCOIN_KEYSTORE_H
+#ifndef BAIYOOIN_KEYSTORE_H
+#define BAIYOOIN_KEYSTORE_H
 
 #include "crypter.h"
 #include "sync.h"
