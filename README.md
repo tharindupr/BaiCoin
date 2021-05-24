@@ -5,7 +5,7 @@ BiCoin Cryptocurrency
 
 
 Copyright (c) 2009-2014 Bitcoin Developers<br>
-Copyright (c) 2011-2014 Bicoin Developers<br>
+Copyright (c) 2011-2014 LitCoin Developers<br>
 Copyright (c) 2021 BiCoin LK Developers<br>
 
 What is BiCoin (බයි කාසි)?
