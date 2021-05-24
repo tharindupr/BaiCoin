@@ -19,7 +19,7 @@ BiCoin is a derivative of Bicoin using scrypt as a proof-of-work algorithm. The 
  
 
 The rest is the same as Bitcoin.
- - 22 coins per block to symbolize 22nd deformation to the Sri Lankan consitution. 
+ - 22 coins per block to symbolize 22nd reformation to the Sri Lankan consitution. 
  - 2019 blocks to retarget difficulty to symbolize the appoinment of president loku sir.
 
 The immediately useable, binary version of the BiCoin client sofware will be released soon. 
