@@ -1,12 +1,8 @@
 BaiCoin Cryptocurrency
 ================================
 
-![alt text](https://raw.githubusercontent.com/tharindupr/BaiCoin/main/baicoinlogo-1.webp)
+![alt text](https://raw.githubusercontent.com/tharindupr/BaiCoin/main/bicoinlogo-1.webp)
 
-
-Copyright (c) 2009-2014 Bitcoin Developers<br>
-Copyright (c) 2011-2014 LitCoin Developers<br>
-Copyright (c) 2021 BaiCoin LK Developers<br>
 
 What is BaiCoin (බයි කාසි)?
 ----------------
@@ -29,6 +25,11 @@ License
 
 BaiCoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
+
+
+Copyright (c) 2009-2014 Bitcoin Developers<br>
+Copyright (c) 2011-2014 LitCoin Developers<br>
+Copyright (c) 2021 BaiCoin LK Developers<br>
 
 <!-- Development process
 -------------------
