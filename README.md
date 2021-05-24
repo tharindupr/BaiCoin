@@ -20,6 +20,14 @@ The rest is the same as Bitcoin.
 
 The immediately useable, binary version of the BaiCoin client sofware will be released soon. 
 
+
+Instructions to run BaiCoin(බයි කාසි) Wallet
+---------------------------------------------
+- [Run BaiCoin Binary]
+- [Unix Build Notes](build-unix.md)
+- [OSX Build Notes](build-osx.md)
+
+
 License
 -------
 
