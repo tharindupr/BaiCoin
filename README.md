@@ -1,7 +1,7 @@
 BaiCoin Cryptocurrency
 ================================
 
-![alt text](https://raw.githubusercontent.com/tharindupr/BaiCoin/main/bicoinlogo-1.webp)
+![alt text](https://raw.githubusercontent.com/tharindupr/BaiCoin/main/baicoin-logo.png)
 
 
 What is BaiCoin (බයි කාසි)?
