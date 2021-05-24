@@ -24,6 +24,8 @@ for Ubuntu >= 12.04 (please read the 'Berkely DB version warning' below):
 
 ::
 
+    add-apt-repository ppa:luke-jr/bitcoincore
+    apt-get update
     apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
         libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
         libssl-dev libdb++-dev libminiupnpc-dev
