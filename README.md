@@ -23,9 +23,8 @@ The immediately useable, binary version of the BaiCoin client sofware will be re
 
 Instructions to run BaiCoin(බයි කාසි) Wallet
 ---------------------------------------------
-- [Run BaiCoin Binary]
-- [Unix Build Notes](build-unix.md)
-- [OSX Build Notes](build-osx.md)
+- [Run BaiCoin Binary] (https://github.com/tharindupr/BaiCoin/tree/main/bin)
+- [Unix and OSX Build Notes](https://github.com/tharindupr/BaiCoin/blob/main/doc/readme-qt.rst)
 
 
 License
