@@ -1,7 +1,7 @@
-BiCoin 0.8.x BETA
+BaiCoin 0.8.x BETA
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 BiCoin Developers
+Copyright (c) 2011-2014 BaiCoin Developers
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -11,7 +11,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-BiCoin is a free open source peer-to-peer electronic cash system that is
+BaiCoin is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -19,10 +19,10 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run BiCoin-qt.exe.
+Unpack the files into a directory and run BaiCoin-qt.exe.
 
-BiCoin-Qt is the original BiCoin client and it builds the backbone of the network.
-However, it downloads and stores the entire history of BiCoin transactions;
+BaiCoin-Qt is the original BaiCoin client and it builds the backbone of the network.
+However, it downloads and stores the entire history of BaiCoin transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
 

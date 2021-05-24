@@ -1,9 +1,9 @@
-Building BiCoin
+Building BaiCoin
 
-See doc/readme-qt.rst for instructions on building BiCoin-Qt,
+See doc/readme-qt.rst for instructions on building BaiCoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of BiCoin.
+implementation of BaiCoin.
 
-See doc/build-*.txt for instructions on building BiCoind,
+See doc/build-*.txt for instructions on building BaiCoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of BiCoin.
+implementation of BaiCoin.

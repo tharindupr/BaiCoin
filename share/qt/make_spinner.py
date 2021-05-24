@@ -2,7 +2,7 @@
 # W.J. van der Laan, 2011
 # Make spinning .mng animation from a .png
 # Requires imagemagick 6.7+
-from __future__ import diBiCoin
+from __future__ import diBaiCoin
 from os import path
 from PIL import Image
 from subprocess import Popen

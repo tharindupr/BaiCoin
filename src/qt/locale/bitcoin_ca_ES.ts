@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Bicoin</source>
-        <translation>Sobre Bicoin</translation>
+        <source>About Baicoin</source>
+        <translation>Sobre Baicoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Bicoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bicoin&lt;/b&gt; versió</translation>
+        <source>&lt;b&gt;Baicoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Baicoin&lt;/b&gt; versió</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bicoin developers</source>
+        <source>The Baicoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Bicoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces Bicoin per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
+        <source>These are your Baicoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces Baicoin per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Bicoin address</source>
-        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça Bicoin</translation>
+        <source>Sign a message to prove you own a Baicoin address</source>
+        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça Baicoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Bicoin address</source>
-        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça Bicoin específica</translation>
+        <source>Verify a message to ensure it was signed with a specified Baicoin address</source>
+        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça Baicoin específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,8 +117,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Bicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són la seva adreça de Bicoin per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
+        <source>These are your Baicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són la seva adreça de Baicoin per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BICOINS&lt;/b&gt;!</source>
-        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BICOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BAICOINS&lt;/b&gt;!</source>
+        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BAICOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Bicoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bicoins from being stolen by malware infecting your computer.</source>
-        <translation>Bicoin es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus bicoins de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
+        <source>Baicoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your baicoins from being stolen by malware infecting your computer.</source>
+        <translation>Baicoin es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus baicoins de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Bicoin</source>
-        <translation>Mostra informació sobre Bicoin</translation>
+        <source>Show information about Baicoin</source>
+        <translation>Mostra informació sobre Baicoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Bicoin address</source>
-        <translation>Enviar monedes a una adreça Bicoin</translation>
+        <source>Send coins to a Baicoin address</source>
+        <translation>Enviar monedes a una adreça Baicoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Bicoin</source>
-        <translation>Modificar les opcions de configuració per bicoin</translation>
+        <source>Modify configuration options for Baicoin</source>
+        <translation>Modificar les opcions de configuració per baicoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Bicoin</source>
-        <translation>Bicoin</translation>
+        <source>Baicoin</source>
+        <translation>Baicoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Bicoin</source>
-        <translation>&amp;Sobre Bicoin</translation>
+        <source>&amp;About Baicoin</source>
+        <translation>&amp;Sobre Baicoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,13 +495,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bicoin addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de Bicoin per provar que les poseeixes</translation>
+        <source>Sign messages with your Baicoin addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de Baicoin per provar que les poseeixes</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bicoin addresses</source>
-        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça Bicoin específica.</translation>
+        <source>Verify messages to ensure they were signed with specified Baicoin addresses</source>
+        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça Baicoin específica.</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Bicoin client</source>
-        <translation>Client Bicoin</translation>
+        <source>Baicoin client</source>
+        <translation>Client Baicoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Bicoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Bicoin</numerusform><numerusform>%n connexions actives a la xarxa Bicoin</numerusform></translation>
+        <source>%n active connection(s) to Baicoin network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Baicoin</numerusform><numerusform>%n connexions actives a la xarxa Baicoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,8 +647,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bicoin address or malformed URI parameters.</source>
-        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça Bicoin invalida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Baicoin address or malformed URI parameters.</source>
+        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça Baicoin invalida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -662,8 +662,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Bicoin can no longer continue safely and will quit.</source>
-        <translation>Ha tingut lloc un error fatal. Bicoin no pot continuar executant-se de manera segura i es tancará.</translation>
+        <source>A fatal error occurred. Baicoin can no longer continue safely and will quit.</source>
+        <translation>Ha tingut lloc un error fatal. Baicoin no pot continuar executant-se de manera segura i es tancará.</translation>
     </message>
 </context>
 <context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bicoin address.</source>
-        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça Bicoin valida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Baicoin address.</source>
+        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça Baicoin valida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Bicoin-Qt</source>
-        <translation>Bicoin-Qt</translation>
+        <source>Baicoin-Qt</source>
+        <translation>Baicoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Bicoin after logging in to the system.</source>
-        <translation>Iniciar automàticament Bicoin després de l&apos;inici de sessió del sistema.</translation>
+        <source>Automatically start Baicoin after logging in to the system.</source>
+        <translation>Iniciar automàticament Baicoin després de l&apos;inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bicoin on system login</source>
-        <translation>&amp;Iniciar Bicoin al inici de sessió del sistema.</translation>
+        <source>&amp;Start Baicoin on system login</source>
+        <translation>&amp;Iniciar Baicoin al inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Bicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir el port del client de Bicoin al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
+        <source>Automatically open the Baicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir el port del client de Baicoin al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Bicoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connectar a la xarxa Bicoin a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
+        <source>Connect to the Baicoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connectar a la xarxa Baicoin a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bicoin.</source>
-        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï Bicoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Baicoin.</source>
+        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï Baicoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -930,13 +930,13 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>Choose the default subdibicoin unit to show in the interface and when sending coins.</source>
+        <source>Choose the default subdibaicoin unit to show in the interface and when sending coins.</source>
         <translation>Sel·lecciona la unitat de subdivisió per defecte per mostrar en la interficie quan s&apos;envien monedes.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Bicoin addresses in the transaction list or not.</source>
-        <translation>Mostrar adreces Bicoin als llistats de transaccions o no.</translation>
+        <source>Whether to show Baicoin addresses in the transaction list or not.</source>
+        <translation>Mostrar adreces Baicoin als llistats de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,8 +987,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Bicoin.</source>
-        <translation>Aquesta configuració tindrà efecte un cop es reiniciï Bicoin.</translation>
+        <source>This setting will take effect after restarting Baicoin.</source>
+        <translation>Aquesta configuració tindrà efecte un cop es reiniciï Baicoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bicoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Bicoin un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Baicoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Baicoin un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1060,8 +1060,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start bicoin: click-to-pay handler</source>
-        <translation>No es pot iniciar bicoin: manejador clicla-per-pagar</translation>
+        <source>Cannot start baicoin: click-to-pay handler</source>
+        <translation>No es pot iniciar baicoin: manejador clicla-per-pagar</translation>
     </message>
 </context>
 <context>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Bicoin-Qt help message to get a list with possible Bicoin command-line options.</source>
-        <translation>Mostrar el missatge d&apos;ajuda de Bicoin-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de Bicoin.</translation>
+        <source>Show the Baicoin-Qt help message to get a list with possible Baicoin command-line options.</source>
+        <translation>Mostrar el missatge d&apos;ajuda de Baicoin-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de Baicoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Bicoin - Debug window</source>
-        <translation>Bicoin -Finestra de debug</translation>
+        <source>Baicoin - Debug window</source>
+        <translation>Baicoin -Finestra de debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Bicoin Core</source>
-        <translation>Nucli de Bicoin</translation>
+        <source>Baicoin Core</source>
+        <translation>Nucli de Baicoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,8 +1245,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Bicoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obrir el dietari de debug de Bicoin del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
+        <source>Open the Baicoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obrir el dietari de debug de Baicoin del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1255,8 +1255,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Bicoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de Bicoin</translation>
+        <source>Welcome to the Baicoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de Baicoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bicoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introdueixi una adreça de Bicoin (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Baicoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introdueixi una adreça de Baicoin (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bicoin address</source>
-        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça Bicoin</translation>
+        <source>Sign the message to prove you own this Baicoin address</source>
+        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça Baicoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1540,8 +1540,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Bicoin address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Bicoin específica</translation>
+        <source>Verify the message to ensure it was signed with the specified Baicoin address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Baicoin específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bicoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introdueixi una adreça de Bicoin (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Baicoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introdueixi una adreça de Baicoin (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,8 +1566,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Bicoin signature</source>
-        <translation>Introduïr una clau Bicoin</translation>
+        <source>Enter Baicoin signature</source>
+        <translation>Introduïr una clau Baicoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Bicoin developers</source>
+        <source>The Baicoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2178,8 +2178,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Bicoin version</source>
-        <translation>Versió de Bicoin</translation>
+        <source>Baicoin version</source>
+        <translation>Versió de Baicoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2188,8 +2188,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or bicoind</source>
-        <translation>Enviar comanda a -servidor o bicoind</translation>
+        <source>Send command to -server or baicoind</source>
+        <translation>Enviar comanda a -servidor o baicoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2208,13 +2208,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: bicoin.conf)</source>
-        <translation>Especificat arxiu de configuració (per defecte: bicoin.conf)</translation>
+        <source>Specify configuration file (default: baicoin.conf)</source>
+        <translation>Especificat arxiu de configuració (per defecte: baicoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: bicoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: bicoind.pid)</translation>
+        <source>Specify pid file (default: baicoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: baicoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2291,15 +2291,15 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bicoinrpc
+rpcuser=baicoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bicoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Baicoin Alert&quot; admin@foo.com
 </source>
-        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=bicoinrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;Bicoin Alert&quot; admin@foo.com</translation>
+        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=baicoinrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;Baicoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2313,8 +2313,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bicoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Bicoin is probably already running.</source>
-        <translation>No es pot bloquejar el directori de dades %s. Probablement Bicoin ja estigui en execució.</translation>
+        <source>Cannot obtain a lock on data directory %s. Baicoin is probably already running.</source>
+        <translation>No es pot bloquejar el directori de dades %s. Probablement Baicoin ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2358,8 +2358,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bicoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bicoin will not work properly.</source>
-        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, Bicoin no funcionará de manera apropiada.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Baicoin will not work properly.</source>
+        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, Baicoin no funcionará de manera apropiada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2608,8 +2608,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bicoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Bicoin Wiki for SSL setup instructions)</source>
-        <translation>Opcions SSL: (veure la Wiki de Bicoin per a instruccions de configuració SSL)</translation>
+        <source>SSL options: (see the Baicoin Wiki for SSL setup instructions)</source>
+        <translation>Opcions SSL: (veure la Wiki de Baicoin per a instruccions de configuració SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2798,13 +2798,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Bicoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bicoin</source>
-        <translation>Error carregant wallet.dat: El moneder requereix una versió de Bicoin més moderna</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Baicoin</source>
+        <translation>Error carregant wallet.dat: El moneder requereix una versió de Baicoin més moderna</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Bicoin to complete</source>
-        <translation>El moneder necesita ser re-escrit: re-inicia Bicoin per a completar la tasca</translation>
+        <source>Wallet needed to be rewritten: restart Baicoin to complete</source>
+        <translation>El moneder necesita ser re-escrit: re-inicia Baicoin per a completar la tasca</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2863,8 +2863,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bicoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Bicoin is probably already running.</source>
-        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement Bicoin ja estigui en execució.</translation>
+        <source>Unable to bind to %s on this computer. Baicoin is probably already running.</source>
+        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement Baicoin ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+64"/>

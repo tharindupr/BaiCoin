@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>BiCoin.icns</string>
+	<string>BaiCoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>BiCoin-Qt</string>
+	<string>BaiCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.BiCoin.BiCoin-Qt</string>
+	<string>org.BaiCoin.BaiCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.BiCoin.BiCoinPayment</string>
+            <string>org.BaiCoin.BaiCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>BiCoin</string>
+              <string>BaiCoin</string>
             </array>
           </dict>
         </array>

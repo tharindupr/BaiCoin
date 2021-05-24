@@ -1,4 +1,4 @@
-BiCoin Running Instructions
+BaiCoin Running Instructions
 ===============================
 
 Ubunutu
@@ -30,5 +30,5 @@ Running the Wallet App
 ----------------------
 ```sh
 cd bin
-./bicoin-qt -testnet
+./baicoin-qt -testnet
 ```

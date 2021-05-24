@@ -1,9 +1,9 @@
 0.8.7.5 changes
 =============
-- openssl-1.0.1k or older versions patched for CVE-2014-8275 broke compatibility with Bitcoin and BiCoin.
-  This update patches BiCoin to maintain compatibility with CVE-2014-8275 patched openssl.
-- If you are running v0.8.7.4 as distributed by BiCoin.org you do not need to upgrade.
-  The binaries distributed on BiCoin.org contain their own copy of openssl so they are unaffected by this issue.
+- openssl-1.0.1k or older versions patched for CVE-2014-8275 broke compatibility with Bitcoin and BaiCoin.
+  This update patches BaiCoin to maintain compatibility with CVE-2014-8275 patched openssl.
+- If you are running v0.8.7.4 as distributed by BaiCoin.org you do not need to upgrade.
+  The binaries distributed on BaiCoin.org contain their own copy of openssl so they are unaffected by this issue.
 
 0.8.7.4 changes
 =============
@@ -37,7 +37,7 @@
 - Cleanup of SSE2 scrypt detection.
 
 - Minor fixes:
-  - s/Bitcoin/BiCoin/ in the Coin Control example
+  - s/Bitcoin/BaiCoin/ in the Coin Control example
   - Fix custom build on MacOS X 10.9
   - Fix QT5 custom build
   - Update Debian build instructions
@@ -56,7 +56,7 @@
 
 - Peers older than protocol version 70002 are disconnected.  0.8.3.7 is the oldest compatible client.
 
-- Internal miner added back to BiCoin.  setgenerate now works, although it is generally a bad idea as it is significantly slower than external CPU miners.
+- Internal miner added back to BaiCoin.  setgenerate now works, although it is generally a bad idea as it is significantly slower than external CPU miners.
 
 - New RPC commands: getbestblockhash and verifychain
 
@@ -81,13 +81,13 @@
 
 Workaround negative version numbers serialization bug.
 
-Fix out-of-bounds check (BiCoin currently does not use this codepath, but we apply this
+Fix out-of-bounds check (BaiCoin currently does not use this codepath, but we apply this
 patch just to match Bitcoin 0.8.5.)
 
 0.8.4.1 changes
 ===============
 
-CVE-2013-5700 Bloom: filter crash issue - BiCoin 0.8.3.7 disabled bloom by default so was 
+CVE-2013-5700 Bloom: filter crash issue - BaiCoin 0.8.3.7 disabled bloom by default so was 
 unaffected by this issue, but we include their patches anyway just in case folks want to 
 enable bloomfilter=1.
 
@@ -98,7 +98,7 @@ CVE-2013-4627: Better fix for the fill-memory-with-orphaned-tx attack
 Fix multi-block reorg transaction resurrection.
 
 Fix non-standard disconnected transactions causing mempool orphans.  This bug could cause 
-nodes running with the -debug flag to crash, although it was lot less likely on BiCoin 
+nodes running with the -debug flag to crash, although it was lot less likely on BaiCoin 
 as we disabled IsDust() in 0.8.3.x.
 
 Mac OSX: use 'FD_FULLSYNC' with LevelDB, which will (hopefully!) prevent the database 

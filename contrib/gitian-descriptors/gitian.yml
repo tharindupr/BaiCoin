@@ -1,5 +1,5 @@
 ---
-name: "BiCoin"
+name: "BaiCoin"
 suites:
 - "lucid"
 architectures:
@@ -20,8 +20,8 @@ packages:
 - "libpng12-dev"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/TechnoVisionDev/BiCoin.git"
-  "dir": "BiCoin"
+- "url": "https://github.com/TechnoVisionDev/BaiCoin.git"
+  "dir": "BaiCoin"
 files:
 - "miniupnpc-1.9.20140401.tar.gz"
 - "qrencode-3.4.3.tar.bz2"
@@ -44,16 +44,16 @@ script: |
   make $MAKEOPTS install
   cd ..
   #
-  cd BiCoin
+  cd BaiCoin
   mkdir -p $OUTDIR/src
   git archive HEAD | tar -x -C $OUTDIR/src
   cp $OUTDIR/src/doc/README.md $OUTDIR
   cp $OUTDIR/src/COPYING $OUTDIR
   cd src
-  make -f makefile.unix STATIC=1 OPENSSL_INCLUDE_PATH="$INSTDIR/include" OPENSSL_LIB_PATH="$INSTDIR/lib" $MAKEOPTS BiCoind USE_UPNP=0 DEBUGFLAGS= USE_SSE2=1
+  make -f makefile.unix STATIC=1 OPENSSL_INCLUDE_PATH="$INSTDIR/include" OPENSSL_LIB_PATH="$INSTDIR/lib" $MAKEOPTS BaiCoind USE_UPNP=0 DEBUGFLAGS= USE_SSE2=1
   mkdir -p $OUTDIR/bin/$GBUILD_BITS
-  install -s BiCoind $OUTDIR/bin/$GBUILD_BITS
+  install -s BaiCoind $OUTDIR/bin/$GBUILD_BITS
   cd ..
   qmake INCLUDEPATH="$INSTDIR/include" LIBS="-L$INSTDIR/lib" RELEASE=1 USE_QRCODE=1 USE_SSE2=1
   make $MAKEOPTS
-  install BiCoin-qt $OUTDIR/bin/$GBUILD_BITS
+  install BaiCoin-qt $OUTDIR/bin/$GBUILD_BITS

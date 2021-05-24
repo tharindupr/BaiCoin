@@ -1,17 +1,17 @@
-BiCoin Cryptocurrency
+BaiCoin Cryptocurrency
 ================================
 
-![alt text](https://raw.githubusercontent.com/tharindupr/BiCoin/main/bicoinlogo-1.webp)
+![alt text](https://raw.githubusercontent.com/tharindupr/BaiCoin/main/baicoinlogo-1.webp)
 
 
 Copyright (c) 2009-2014 Bitcoin Developers<br>
 Copyright (c) 2011-2014 LitCoin Developers<br>
-Copyright (c) 2021 BiCoin LK Developers<br>
+Copyright (c) 2021 BaiCoin LK Developers<br>
 
-What is BiCoin (බයි කාසි)?
+What is BaiCoin (බයි කාසි)?
 ----------------
 
-BiCoin is a derivative of LiteCoin (Which is a derivative of Bitcoin) using scrypt as a proof-of-work algorithm. The sole purpose of this coin is to create a digital currency for Bai people (බයියො) in Sri Lanka to untilize in paying Chineese debts. 
+BaiCoin is a derivative of LiteCoin (Which is a derivative of Bitcoin) using scrypt as a proof-of-work algorithm. The sole purpose of this coin is to create a digital currency for Bai people (බයියො) in Sri Lanka to untilize in paying Chineese debts. 
 
  - ~69 million total coins   (To devide 10 coins per each people in 69 Lakshe)
  - 2 minute block targets
@@ -22,12 +22,12 @@ The rest is the same as Bitcoin.
  - 22 coins per block to symbolize 22nd reformation to the Sri Lankan consitution. 
  - 2019 blocks to retarget difficulty to symbolize the appoinment of president loku sir.
 
-The immediately useable, binary version of the BiCoin client sofware will be released soon. 
+The immediately useable, binary version of the BaiCoin client sofware will be released soon. 
 
 License
 -------
 
-BiCoin is released under the terms of the MIT license. See `COPYING` for more
+BaiCoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 <!-- Development process
@@ -36,7 +36,7 @@ information or see http://opensource.org/licenses/MIT.
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the BiCoin
+If it is a simple/trivial/non-controversial change, then one of the BaiCoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -48,8 +48,8 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/BiCoin-project/BiCoin/tags) are created
-regularly to indicate new official, stable release versions of BiCoin.
+completely stable. [Tags](https://github.com/BaiCoin-project/BaiCoin/tags) are created
+regularly to indicate new official, stable release versions of BaiCoin.
 
 Testing
 -------
@@ -72,5 +72,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./BiCoin-qt_test -->
+    ./BaiCoin-qt_test -->
 

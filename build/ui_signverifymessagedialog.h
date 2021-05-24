@@ -310,7 +310,7 @@ public:
 #endif // QT_NO_TOOLTIP
         copySignatureButton_SM->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        signMessageButton_SM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "Sign the message to prove you own this Bicoin address", 0, QApplication::UnicodeUTF8));
+        signMessageButton_SM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "Sign the message to prove you own this Baicoin address", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
         signMessageButton_SM->setText(QApplication::translate("SignVerifyMessageDialog", "Sign &Message", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
@@ -329,7 +329,7 @@ public:
         addressBookButton_VM->setText(QString());
         addressBookButton_VM->setShortcut(QApplication::translate("SignVerifyMessageDialog", "Alt+A", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
-        verifyMessageButton_VM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "Verify the message to ensure it was signed with the specified Bicoin address", 0, QApplication::UnicodeUTF8));
+        verifyMessageButton_VM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "Verify the message to ensure it was signed with the specified Baicoin address", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
         verifyMessageButton_VM->setText(QApplication::translate("SignVerifyMessageDialog", "Verify &Message", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP

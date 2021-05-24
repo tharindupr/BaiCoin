@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = bicoin-qt
-macx:TARGET = "Bicoin-Qt"
+TARGET = baicoin-qt
+macx:TARGET = "Baicoin-Qt"
 VERSION = 0.8.7.5
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
