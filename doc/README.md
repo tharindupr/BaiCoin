@@ -12,7 +12,7 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 
 Intro
 ---------------------
-BaiCoin is a free open source peer-to-peer electronic cash system that is
+BaiCoin is a derivative of LiteCoin (Which is a derivative of Bitcoin) using scrypt as a proof-of-work algorithm. The sole purpose of this coin is to create a digital currency for Bai people (බයියො) in Sri Lanka to untilize in paying Chineese debts. It is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -22,16 +22,6 @@ Setup
 ---------------------
 You need the Qt4 run-time libraries to run BaiCoin-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
-
-Unpack the files into a directory and run:
-
-- bin/32/BaiCoin-qt (GUI, 32-bit)
-- bin/32/BaiCoind (headless, 32-bit)
-- bin/64/BaiCoin-qt (GUI, 64-bit)
-- bin/64/BaiCoind (headless, 64-bit)
-
-See the documentation at the [BaiCoin Wiki](http://BaiCoin.info)
-for help and more information.
 
 
 Other Pages
