@@ -25,3 +25,10 @@ sudo apt-get install openssl1.0
 sudo apt-get install libssl1.0-dev
 ```
 First, make sure that the above required packages are installed on the system. 
+
+Running the Wallet App
+----------------------
+```sh
+cd bin
+./bicoin-qt -testnet
+```
