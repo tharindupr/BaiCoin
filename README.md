@@ -13,7 +13,7 @@ What is BiCoin (බයි කාසි)?
 
 BiCoin is a derivative of LiteCoin (Which is a derivative of Bitcoin) using scrypt as a proof-of-work algorithm. The sole purpose of this coin is to create a digital currency for Bai people (බයියො) in Sri Lanka to untilize in paying Chineese debts. 
 
- - ~64 million total coins   (To devide 10 coins per each people in 69 Lakshe)
+ - ~69 million total coins   (To devide 10 coins per each people in 69 Lakshe)
  - 2 minute block targets
  - subsidy halves in 840k blocks (~4 years)
  
