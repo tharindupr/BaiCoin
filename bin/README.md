@@ -3,6 +3,7 @@ BaiCoin Running Instructions
 
 Ubunutu
 ===================
+Recommended versions are Ubunutu 16-18
 
 Installing Pre Requisites
 -------------------------
