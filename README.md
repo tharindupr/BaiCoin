@@ -15,12 +15,13 @@ BaiCoin is a derivative of LiteCoin (Which is a derivative of Bitcoin) using scr
 
  - ~69 million total coins   (To devide 10 coins per each people in 69 Lakshe)
  - 2 minute block targets
- - subsidy halves in 840k blocks (~4 years)
+ - subsidy halves in 690k blocks (~3 years)
  
 
 The rest is the same as Bitcoin.
- - 20 coins block reward to symbolize 20th Amendment to the Sri Lankan consitution. 
+ - 20 coins block reward to symbolize 20th Amendment to the Sri Lankan consitution. If you are a minner dont be suprised you will definitly get a commision from loku sir. 
  - 2019 blocks to retarget difficulty to symbolize the appoinment of president Loku Sir.
+ - Difficulty is adjusted every 3 days. 
 
 The immediately useable, binary version of the BaiCoin client sofware will be released soon. 
 
