@@ -46,6 +46,21 @@ cd bin
 Adding a seed node
 ------------------
 ```sh
+cd Home
+mkdir .baicoin
+cd .baicoin
+vim baicoin.conf
+```
+
+Add following content to file and save it
+```sh
+server=1
+rpcuser=user
+rpcpassword=a_password
+```
+Then run the BaiCoin binary 
+
+```sh
 cd bin
 ./baicoind &
 ```
