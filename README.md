@@ -11,16 +11,16 @@ BaiCoin Cryptocurrency
 What is BaiCoin (බයි කාසි)?
 ----------------
 
-BaiCoin is a derivative of LiteCoin (Which is a derivative of Bitcoin) using scrypt as a proof-of-work algorithm. The sole purpose of this coin is to create a digital currency for Bai people (බයියො) in Sri Lanka to untilize in paying Chineese debts. 
+BaiCoin is a derivative of LiteCoin (Which is a derivative of Bitcoin) using scrypt as a proof-of-work algorithm. The sole purpose of this coin is to create a digital currency for Bai people (බයියො) in Sri Lanka to utilize in paying Chineese debts. (Good luck with that)
 
- - The abbreviation for Bai Coin is  BAIYO. 
- - ~69 million total coins   (To devide 10 coins per each people in 69 Lakshe)
+ - The abbreviation for Bai Coin is *BAIYO* (e.g. "Bro, can you send me 100 BAIYO‍ to buy some rice?" "Hello...Hello...ඔව් මන්ත්‍රිතුමා තමයි..අනුමැතිය ගන්න නං BAIYO 2000 ක් දාන්න නෝනගෙ අරමුදලෙ account එකට")
+ - ~69 million total coins (To devide 10 coins per each people in 69 Lakshe)
  - 2 minute block targets
  - subsidy halves in 690k blocks (~3 years)
  
 
 The rest is the same as Bitcoin.
- - 20 BAIYO block reward to symbolize 20th Amendment to the Sri Lankan consitution. If you are a minner dont be suprised you will definitly get a commision from loku sir. 
+ - 20 BAIYO block reward to symbolize 20th Amendment to the Sri Lankan consitution. If you are a miner, dont be suprised; you will definitly get a commision from Loku Sir. (Actually this is a mining සහනාධාරෙ from a foriegn loan)
  - 2019 blocks to retarget difficulty to symbolize the appoinment of president Loku Sir.
  - Difficulty is adjusted every 3 days. 
 
