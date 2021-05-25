@@ -24,8 +24,6 @@ The rest is the same as Bitcoin.
  - 2019 blocks to retarget difficulty to symbolize the appoinment of president Loku Sir.
  - Difficulty is adjusted every 3 days. 
 
-The immediately useable, binary version of the BaiCoin client sofware will be released soon. 
-
 
 Instructions to run BaiCoin(බයි කාසි) Wallet
 ---------------------------------------------
