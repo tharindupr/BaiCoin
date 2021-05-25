@@ -66,3 +66,81 @@ cd bin
 ```
 Let the community know the IP of your seed node. You can always send a pull request if you know how to add a seed node in the code. Else you can post in the discussion. 
 
+
+Running the BaiCoin Daemon (This is not tested. Feedbacks are appriciated)
+--------------------------------------------------------------------------
+```sh
+cd bin
+./baicoind --daemon
+./baicoind help
+```
+
+This would output all the available commands given below.
+
+```sh
+addmultisigaddress <nrequired> <'["key","key"]'> [account]
+addnode <node> <add|remove|onetry>
+backupwallet <destination>
+createmultisig <nrequired> <'["key","key"]'>
+createrawtransaction [{"txid":txid,"vout":n},...] {address:amount,...}
+decoderawtransaction <hex string>
+dumpprivkey <baicoinaddress>
+encryptwallet <passphrase>
+getaccount <baicoinaddress>
+getaccountaddress <account>
+getaddednodeinfo <dns> [node]
+getaddressesbyaccount <account>
+getbalance [account] [minconf=1]
+getbestblockhash
+getblock <hash> [verbose=true]
+getblockcount
+getblockhash <index>
+getblocktemplate [params]
+getconnectioncount
+getdifficulty
+getgenerate
+gethashespersec
+getinfo
+getmininginfo
+getnetworkhashps [blocks] [height]
+getnewaddress [account]
+getnormalizedtxid <hex string>
+getpeerinfo
+getrawmempool
+getrawtransaction <txid> [verbose=0]
+getreceivedbyaccount <account> [minconf=1]
+getreceivedbyaddress <baicoinaddress> [minconf=1]
+gettransaction <txid>
+gettxout <txid> <n> [includemempool=true]
+gettxoutsetinfo
+getwork [data]
+getworkex [data, coinbase]
+help [command]
+importprivkey <baicoinprivkey> [label] [rescan=true]
+keypoolrefill
+listaccounts [minconf=1]
+listaddressgroupings
+listlockunspent
+listreceivedbyaccount [minconf=1] [includeempty=false]
+listreceivedbyaddress [minconf=1] [includeempty=false]
+listsinceblock [blockhash] [target-confirmations]
+listtransactions [account] [count=10] [from=0]
+listunspent [minconf=1] [maxconf=9999999] ["address",...]
+lockunspent unlock? [array-of-Objects]
+move <fromaccount> <toaccount> <amount> [minconf=1] [comment]
+sendfrom <fromaccount> <tobaicoinaddress> <amount> [minconf=1] [comment] [comment-to]
+sendmany <fromaccount> {address:amount,...} [minconf=1] [comment]
+sendrawtransaction <hex string> [allowhighfees=false]
+sendtoaddress <baicoinaddress> <amount> [comment] [comment-to]
+setaccount <baicoinaddress> <account>
+setgenerate <generate> [genproclimit]
+setmininput <amount>
+settxfee <amount BAIYO/KB>
+signmessage <baicoinaddress> <message>
+signrawtransaction <hex string> [{"txid":txid,"vout":n,"scriptPubKey":hex,"redeemScript":hex},...] [<privatekey1>,...] [sighashtype="ALL"]
+stop
+submitblock <hex data> [optional-params-obj]
+validateaddress <baicoinaddress>
+verifychain [check level] [num blocks]
+verifymessage <baicoinaddress> <signature> <message>
+```
