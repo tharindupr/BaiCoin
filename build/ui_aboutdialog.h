@@ -91,7 +91,7 @@ public:
         copyrightLabel->setObjectName(QString::fromUtf8("copyrightLabel"));
         copyrightLabel->setCursor(QCursor(Qt::IBeamCursor));
         copyrightLabel->setText(QString::fromUtf8("Copyright &copy; 2009-YYYY The Bitcoin developers\n"
-"Copyright &copy; 2011-YYYY The Baicoin developers\n"
+"Copyright &copy; 2011-YYYY The LiteCoin developers\n"
 "Copyright &copy; 2021 Baicoin Developers"));
         copyrightLabel->setTextFormat(Qt::RichText);
         copyrightLabel->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
@@ -134,7 +134,7 @@ public:
         label->setText(QApplication::translate("AboutDialog", "<b>Baicoin</b> version", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("AboutDialog", "\n"
 "This is experimental software.\n"
-"\n"
+"BaiCoin is a derivative of LiteCoin (Which is a derivative of Bitcoin) using scrypt as a proof-of-work algorithm. The sole purpose of this coin is to create a digital currency for Bai people (බයියො) in Sri Lanka to untilize in paying Chineese debts.\n\n"
 "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.\n"
 "\n"
 "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.", 0, QApplication::UnicodeUTF8));
