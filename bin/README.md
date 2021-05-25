@@ -28,7 +28,25 @@ First, make sure that the above required packages are installed on the system.
 
 Running the Wallet App
 ----------------------
+
+Running on the test net
 ```sh
 cd bin
 ./baicoin-qt -testnet
 ```
+
+Running on the main net
+```sh
+cd bin
+./baicoin-qt
+```
+
+
+Adding a seed node
+------------------
+```sh
+cd bin
+./baicoind &
+```
+Let the community know the IP of your seed node. You can always send a pull request if you know how to add a seed node in the code. Else you can post in the discussion. 
+
