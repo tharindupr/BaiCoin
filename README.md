@@ -20,7 +20,7 @@ BaiCoin is a derivative of LiteCoin (Which is a derivative of Bitcoin) using scr
 
 The rest is the same as Bitcoin.
  - 20 coins block reward to symbolize 20th Amendment to the Sri Lankan consitution. 
- - 2019 blocks to retarget difficulty to symbolize the appoinment of president loku sir.
+ - 2019 blocks to retarget difficulty to symbolize the appoinment of president Loku Sir.
 
 The immediately useable, binary version of the BaiCoin client sofware will be released soon. 
 
