@@ -1,31 +1,29 @@
 BaiCoin Running Instructions
 ===============================
 
-Ubunutu
+Ubuntu
 ===================
-Recommended versions are Ubunutu 16-18
+Recommended versions are Ubuntu 16-18
+:warning: Using 20.04 will prevent you from adding the bitcoin/bitcoin repository. Its a known issue.
+
+
 
 Installing Pre Requisites
 -------------------------
 ```sh
-sudo apt-get update
-sudo apt-get install build-essential gcc make perl dkms
-sudo apt-get install git
-sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
-sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
-sudo apt-get install libboost-all-dev
-sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
-sudo apt-get install libdb4.8-dev libdb4.8++-dev
-sudo apt-get install libminiupnpc-dev
-sudo apt-get install libzmq3-dev
-sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler 
-sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
-sudo apt-get install openssl1.0
-sudo apt-get install libssl1.0-dev
+sudo apt-get install -y build-essential gcc make perl dkms git build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev libboost-all-dev software-properties-common
+sudo apt-get install -y libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libzmq3-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler  libqt4-dev libprotobuf-dev protobuf-compiler openssl1.0 libssl1.0-dev
 ```
+
+### First command returned an error?
+ගොනා වගේ 20.04 එකක දැම්මද? දැන් ඉතින් මෝඩ ගැසට් රිවස් බයියා උඹ 18.04 එකක් install කරපන්. අර උඩ ලියල තියන එක දැන්වත් බලපන්.. හයියෝ... 
 First, make sure that the above required packages are installed on the system. 
+
+### By now, you should have cloned the repo. Go there. 
+No you ගොන් බයියා.. not go there on foot! Just ```cd``` to that directory!!
+
 
 Running the Wallet App
 ----------------------
@@ -45,19 +43,21 @@ cd bin
 
 Adding a seed node
 ------------------
+First create the configurations required to run.
 ```sh
-cd Home
+cd ~
 mkdir .baicoin
 cd .baicoin
-vim baicoin.conf
-```
-
-Add following content to file and save it
-```sh
+cat << EOF > baicoin.conf
 server=1
-rpcuser=user
-rpcpassword=a_password
+rpcuser=bainameyoulike
+rpcpassword=baipasswordwhichislongliketheharborloan
+EOF
 ```
+## Did you just run that? 
+හයියෝ you මෝඩ තැරි දාර බයියා... Change that password under ```rpcpassword``` to something you only know!
+
+
 Then run the BaiCoin binary 
 
 ```sh
@@ -69,11 +69,14 @@ Let the community know the IP of your seed node. You can always send a pull requ
 
 Running the BaiCoin Daemon (This is not tested. Feedbacks are appriciated)
 --------------------------------------------------------------------------
+:warning: Make sure you have run the configuration creation part of the **Adding a seed node** section first.
 ```sh
 cd bin
 ./baicoind --daemon
 ./baicoind help
 ```
+## Error came up? 
+කෝමාරිකා බයියා! අර උඩ config file එක දැම්මද බලපන්! 
 
 This would output all the available commands given below.
 
@@ -143,4 +146,12 @@ submitblock <hex data> [optional-params-obj]
 validateaddress <baicoinaddress>
 verifychain [check level] [num blocks]
 verifymessage <baicoinaddress> <signature> <message>
+```
+
+ඔය තියන සේරම ගහන්නෙපා... හයියෝ... ඩොලර් නැවි බයියා..! 
+
+### How do I check my balance?
+```sh
+cd /bin
+./baicoind getinfo
 ```
