@@ -155,3 +155,16 @@ verifymessage <baicoinaddress> <signature> <message>
 cd /bin
 ./baicoind getinfo
 ```
+
+### How to mine BaiCoin ?
+
+Start the Baicon daemon using the following command :
+```sh
+./baicoind --daemon
+```
+Set the set generate flag to true
+```sh
+./baicoind setgenerate true 3
+```
+
+Here, 3 means the number of CPUs you allocate. Wait until your machine find the next valid block. You can check your balance as stated above. 
