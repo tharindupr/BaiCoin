@@ -29,6 +29,7 @@ Instructions to run BaiCoin(බයි කාසි) Wallet
 ---------------------------------------------
 - [Run BaiCoin Binary](https://github.com/tharindupr/BaiCoin/tree/main/bin)
 - [Unix and OSX Build Notes](https://github.com/tharindupr/BaiCoin/blob/main/doc/readme-qt.rst)
+- [How to mine BaiCoin](https://github.com/tharindupr/BaiCoin/tree/main/bin))
 
 
 License
