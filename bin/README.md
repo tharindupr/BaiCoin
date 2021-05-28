@@ -7,8 +7,6 @@ Recommended versions are Ubuntu 16-18
 :warning: Using 20.04 will prevent you from adding the bitcoin/bitcoin repository. Its a known issue.
 (You can use a docker if you do not have a recommended OS version. Checkout the [Running on docker](#running-on-docker) section below)
 
-
-
 Installing Pre Requisites
 -------------------------
 ```sh
@@ -25,36 +23,6 @@ First, make sure that the above required packages are installed on the system un
 ### By now, you should have cloned the repo. Go there. 
 No you ගොන් බයියා.. not go there on foot! Just ```cd``` to that directory!!
 
-
-Running on docker
------------------
-:information_source: No need of locally installing the pre requisites if you run the docker
-
-### Pre Requisites
-Install docker
-
-```sh
-sudo apt install docker.io
-```
-
-:warning: Make sure you change the username and password in [docker/baicoin.conf](../docker/baicoin.conf)
-
-### Build and run
-From the cloned directory, run...
-
-```sh
-docker build -f docker/Dockerfile . -t baicoins
-docker run --name baicoin_miner -id baicoins
-```
-
-Now you can go into the docker using ```docker exec -it baicoin_miner /bin/bash```. 
-In there you can use the commands described in the sections below. To transfer any mined coins, do
-
-```sh
-./baicoind --daemon
-./baicoind getinfo
-./baicoind sendtoaddress <your_address>
-```
 
 Running the Wallet App
 ----------------------
@@ -199,3 +167,34 @@ Set the set generate flag to true
 ```
 
 Here, 3 means the number of CPUs you allocate. Wait until your machine find the next valid block. You can check your balance as stated above. 
+
+
+Running on docker
+===================
+:information_source: No need of locally installing the pre requisites if you run the docker
+
+### Pre Requisites
+Install docker
+
+```sh
+sudo apt install docker.io
+```
+
+:warning: Make sure you change the username and password in [docker/baicoin.conf](../docker/baicoin.conf)
+
+### Build and run
+From the cloned directory, run...
+
+```sh
+docker build -f docker/Dockerfile . -t baicoins
+docker run --name baicoin_miner -id baicoins
+```
+
+Now you can go into the docker using ```docker exec -it baicoin_miner /bin/bash```. 
+In there you can use the commands described in the sections below. To transfer any mined coins, do
+
+```sh
+./baicoind --daemon
+./baicoind getinfo
+./baicoind sendtoaddress <your_address>
+```
