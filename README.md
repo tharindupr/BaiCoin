@@ -1,10 +1,9 @@
 BaiCoin Cryptocurrency
 ================================
 
-<!-- ![alt text](https://raw.githubusercontent.com/tharindupr/BaiCoin/main/src/qt/res/icons/bitcoin.png)
- -->
+<!-- ![alt text](src/qt/res/icons/bitcoin.png) -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tharindupr/BaiCoin/main/baicoin-logo.png" width=40% title="BaiCoin Logo">
+  <img src="baicoin-logo.png"?raw=true width=40% title="BaiCoin Logo">
 </p>
 
 
@@ -27,9 +26,9 @@ The rest is the same as Bitcoin.
 
 Instructions to run BaiCoin(බයි කාසි) Wallet
 ---------------------------------------------
-- [Run BaiCoin Binary](https://github.com/tharindupr/BaiCoin/tree/main/bin)
-- [Unix and OSX Build Notes](https://github.com/tharindupr/BaiCoin/blob/main/doc/readme-qt.rst)
-- [How to mine BaiCoin](https://github.com/tharindupr/BaiCoin/tree/main/bin)
+- [Run BaiCoin Binary](bin/)
+- [Unix and OSX Build Notes](doc/readme-qt.rst)
+- [How to mine BaiCoin](bin/)
 
 
 License
@@ -44,6 +43,6 @@ Copyright (c) 2011-2014 LitCoin Developers<br>
 Copyright (c) 2021 BaiCoin LK Developers<br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tharindupr/BaiCoin/main/src/qt/res/images/flyer.png" width=40% title="BaiCoin Logo">
+  <img src="src/qt/res/images/flyer.png"?raw=true width=40% title="BaiCoin Logo">
 </p>
 

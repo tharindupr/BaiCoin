@@ -37,7 +37,7 @@ Install docker
 sudo apt install docker.io
 ```
 
-:warning: Make sure you change the username and password in [docker/baicoin.conf](docker/baicoin.conf)
+:warning: Make sure you change the username and password in [docker/baicoin.conf](../docker/baicoin.conf)
 
 ### Build and run
 From the cloned directory, run...
