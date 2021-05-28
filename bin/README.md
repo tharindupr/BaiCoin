@@ -51,6 +51,8 @@ Now you can go into the docker using ```docker exec -it baicoin_miner /bin/bash`
 In there you can use the commands described in the sections below. To transfer any mined coins, do
 
 ```sh
+./baicoind --daemon
+./baicoind getinfo
 ./baicoind sendtoaddress <your_address>
 ```
 
