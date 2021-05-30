@@ -1,6 +1,6 @@
 BaiCoin Cryptocurrency
 ================================
-
+http://baicoin.org
 <!-- ![alt text](src/qt/res/icons/bitcoin.png) -->
 <p align="center">
   <img src="baicoin-logo.png"?raw=true width=40% title="BaiCoin Logo">
@@ -29,6 +29,7 @@ Instructions to run BaiCoin(බයි කාසි) Wallet
 - [Run BaiCoin Binary](bin/)
 - [Unix and OSX Build Notes](doc/readme-qt.rst)
 - [How to mine BaiCoin](bin/)
+- [Explorer BaiCoin Network](http://baicoin.org/)
 
 
 Donations 
