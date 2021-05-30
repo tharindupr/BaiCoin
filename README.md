@@ -31,6 +31,12 @@ Instructions to run BaiCoin(බයි කාසි) Wallet
 - [How to mine BaiCoin](bin/)
 
 
+Donations 
+---------------------------------------------
+- Bitcoin  : bc1qgfn329sh0k6vmfa7qtkm5q528hfjqduvxsd7gm
+- Ethereum : 0x8Dfe7A88507Df7E7C647FDf8491a4c30De60D618
+
+
 License
 -------
 
